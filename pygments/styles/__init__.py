@@ -29,6 +29,7 @@ STYLE_MAP = {
     'trac':     'trac::TracStyle',
     'native':   'native::NativeStyle',
     'fruity':   'fruity::FruityStyle',
+    'tsdbad':   'tsdbad::TSDBadStyle',
     'bw':       'bw::BlackWhiteStyle',
     'vim':      'vim::VimStyle',
     'vs':       'vs::VisualStudioStyle',

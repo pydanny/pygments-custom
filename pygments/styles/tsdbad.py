@@ -23,43 +23,43 @@ class TSDBadStyle(Style):
     highlight_color = '#666666'
 
     styles = {
-        Token:              '#f0f0f0',
+        Token:              '#000000',
         Whitespace:         '#666666',
 
-        Comment:            'italic #f0f0f0',
-        Comment.Preproc:    'italic bold #f0f0f0',
-        Comment.Special:    'italic bold #f0f0f0 bg:#f0f0f0',
+        Comment:            'italic #000000',
+        Comment.Preproc:    'italic bold #000000',
+        Comment.Special:    'italic bold #000000 bg:#000000',
 
-        Keyword:            'bold #f0f0f0',
+        Keyword:            'bold #000000',
         Keyword.Pseudo:     'nobold',
-        Operator.Word:      'bold #f0f0f0',
+        Operator.Word:      'bold #000000',
 
-        String:             '#f0f0f0',
-        String.Other:       '#f0f0f0',
+        String:             '#000000',
+        String.Other:       '#000000',
 
-        Number:             '#f0f0f0',
+        Number:             '#000000',
 
-        Name.Builtin:       '#f0f0f0',
-        Name.Variable:      '#f0f0f0',
-        Name.Constant:      '#f0f0f0',
-        Name.Class:         'bold #f0f0f0',
-        Name.Function:      'bold #f0f0f0',
-        Name.Namespace:     'bold #f0f0f0',
-        Name.Exception:     'bold #f0f0f0',
-        Name.Tag:           'bold #f0f0f0',
-        Name.Attribute:     'bold #f0f0f0',
-        Name.Decorator:     'bold #f0f0f0',
+        Name.Builtin:       '#000000',
+        Name.Variable:      '#000000',
+        Name.Constant:      '#000000',
+        Name.Class:         'bold #000000',
+        Name.Function:      'bold #000000',
+        Name.Namespace:     'bold #000000',
+        Name.Exception:     'bold #000000',
+        Name.Tag:           'bold #000000',
+        Name.Attribute:     'bold #000000',
+        Name.Decorator:     'bold #000000',
 
         Generic.Heading:    'bold #ffffff',
         Generic.Subheading: 'underline #ffffff',
-        Generic.Deleted:    '#f0f0f0',
-        Generic.Inserted:   '#f0f0f0',
-        Generic.Error:      '#f0f0f0',
+        Generic.Deleted:    '#000000',
+        Generic.Inserted:   '#000000',
+        Generic.Error:      '#000000',
         Generic.Emph:       'italic',
         Generic.Strong:     'bold',
         Generic.Prompt:     '#d0d0d0',
         Generic.Output:     '#d0d0d0',
-        Generic.Traceback:  '#f0f0f0',
+        Generic.Traceback:  '#000000',
 
-        Error:              'bg:#f0f0f0 #d0d0d0'
+        Error:              'bg:#000000 #d0d0d0'
     }
